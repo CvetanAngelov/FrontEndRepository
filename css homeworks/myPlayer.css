@@ -1,0 +1,37 @@
+.header1
+ {
+
+  width: 400px;
+ 	border: solid thick black;
+ 	border-radius: 1em;
+ 	padding: 18px;
+ 	text-align: center;
+  height: 280px;
+ 	border-color: yellow;
+ 	background-color: #FFF380;
+  position: fixed;
+
+ }
+ p
+ {
+ 	float:left;
+
+ 	font-size: 20px;
+ }
+ button
+ {
+   display: inline-block;
+ 	background-color: green;
+ 	color:white;
+ 	float:left;
+ 	font-size: 15px;
+ 	border-color: green;
+}
+.but button
+{
+
+	float:right;
+	background-color: orange;
+	font-size: 15px;
+	border-color: orange;
+}
