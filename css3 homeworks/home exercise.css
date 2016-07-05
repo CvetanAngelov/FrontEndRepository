@@ -1,0 +1,23 @@
+.hypertext{
+ width: 1200px;
+ border: 1px solid black;
+ height: 150px;
+
+
+
+}
+h2{
+  font-size: 22px;
+  color:black;
+  text-shadow: 2px 2px purple;
+  margin:18px;
+}
+
+p{
+  padding: 5px 15px 4px 8px;
+  font-size: 12px;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+   -webkit-column-rule: 5px solid orange;
+   -webkit-colimn-gap: 50px;
+
+}
