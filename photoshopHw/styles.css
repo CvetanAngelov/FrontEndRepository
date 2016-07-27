@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+body, main, header, aside,footer, h1, h2,p{
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*end of reset*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: 100%;
+}
+
+img {
+  height: 20px;
+}
+
+form {
+  width: 420px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #ffffff;
+  border: groove 1px;
+}
+
+ul {
+  background-color: #eeeeee;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  float: left;
+  width: 25%;
+}
+
+li a {
+  margin: 15px;
+  display: block;
+  text-align: center;
+}
+li:hover{
+  background-color: #008cd2;
+}
+
+.logged {
+  background-color: #ffffff;
+}
+
+input {
+  width: 360px;
+  color: #0287cc;
+  margin: 15px 25px;
+  padding: 15px 0px 10px 10px;
+}
+
+input:hover{
+  font-weight: bold;
+  font-family: sans-serif;
+}
+input.first-name {
+  margin-top: 20px;
+  border: solid 1px #0287cc;
+}
+
+.button {
+  cursor: pointer;
+  margin-bottom: 40px;
+  background: #90c842;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-style: none;
+}
+.button:active {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #008cd2;
+    margin-bottom: 40px;
+    border-style: none;
+}
+
+footer{
+  padding: 15px;
+  background-color: grey;
+  color: black;
+  float: left;
+  width: 100%;
+  margin-top: 240px;
+  border-radius: 10%;
+}
+footer:hover{
+  font-weight: bold;
+  color: white;
+
+}
