@@ -1,0 +1,59 @@
+table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 6px;
+  margin-left: 15px;
+}
+th{
+  color: grey;
+}
+.secondTable{
+  position: relative;
+  top: -125px;
+  left: 300px;
+}
+.greenText{
+  color: green;
+}
+.greyRow{
+  background-color: grey;
+}
+
+.greenRow{
+  background-color: #008000;
+}
+.ThirdTable{
+  position: relative;
+  top: -250px;
+  left: 500px;
+}
+.blueText{
+  color: #0000ff;
+}
+.blueRow{
+  background-color: #0000ff;
+}
+
+.Btn{
+  cursor:pointer;
+  position: relative;
+  top: -225px;
+  left: 20px;
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 20%;
+  color: white;
+}
+.Btn:hover{
+  font-weight: bold;
+}
+.btn-print{
+ background-color: #808080;
+}
+.btn-accept{
+  background-color: green;
+}
+.btn-attention{
+  background-color: red;
+}
