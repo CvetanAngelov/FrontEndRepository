@@ -1,0 +1,33 @@
+header{
+	margin-bottom: 20px;
+}
+div{
+	float: left;
+}
+button{
+  margin-left: 10px;
+  font-size: 18px;
+  background-color:rgba(200, 54, 54, 0.5);
+  border-radius: 30%;
+  padding: 5px;
+  color: purple;
+  font-family: cursive;
+  cursor: pointer;
+}
+button:hover{
+  font-weight: bold;
+}
+button:active{
+  background-color: yellow;
+}
+input{
+  color: white;
+  font-family: sans-serif;
+  padding: 8px;
+  background-color: #ebebe0;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+input:hover{
+  font-weight: bold;
+}
