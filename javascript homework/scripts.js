@@ -44,3 +44,17 @@ console.log(timeInMs);
 var currentTime = new Date()
 document.write(currentTime);
 */
+
+
+
+// function calculate () {
+//  	var recLenght = document.getElementById('rectangle-lenght').value;
+//  	recLenght = parseInt(recLenght);
+//
+//  	var recWidth = document.getElementById('rectangle-width').value;
+//  	recWidth = parseInt(rectangleWidth);
+//
+//  	var result = document.getElementById('result');
+//
+//  	var result = recLenght * recWidth;
+//  	result.value = result;
